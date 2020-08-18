@@ -2,7 +2,7 @@
 
 ### Vue工作机制
 
-![image-20200808211550739](https://github.com/Hjw52/Vue-/raw/master/images/image-20200808211550739.png)
+![image-20200808211550739](https://github.com/Hjw52/Vue-/raw/master/image/image-20200808211550739.png)
 
 #### 初始化
 
@@ -52,7 +52,7 @@ Virtual DOM 是react⾸创，Vue2开始⽀持，就是⽤ JavaScript 对象来�
 
 数据修改触发setter，然后监听器会通知进⾏修改，通过对⽐新旧vdom树，得到最⼩修改，就 是 patch ，然后只需要把这些差异修改即可。
 
-![image-20200809122501955](https://github.com/Hjw52/Vue-/raw/master/images/image-20200809122501955.png)
+![image-20200809122501955](https://github.com/Hjw52/Vue-/raw/master/image/image-20200809122501955.png)
 
 #### init初始化
 
